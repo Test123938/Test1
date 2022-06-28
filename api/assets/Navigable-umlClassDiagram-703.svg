@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="220px" preserveAspectRatio="none" style="width:522px;height:220px;background:#00000000;" version="1.1" viewBox="0 0 522 220" width="522px" zoomAndPan="magnify"><defs><filter height="300%" id="fl24zix5z7ws5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9bf5c5c397e215ecd3d6a8b442adcab6]
+class Navigable--><rect codeLine="6" fill="#FEFECE" filter="url(#fl24zix5z7ws5)" height="52.9551" id="Navigable" style="stroke:#FF0000;stroke-width:1.5;" width="499" x="9" y="7"/><ellipse cx="225.75" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M222.1777,19.2651 L222.1777,17.1069 L229.5571,17.1069 L229.5571,19.2651 L227.0918,19.2651 L227.0918,27.3418 L229.5571,27.3418 L229.5571,29.5 L222.1777,29.5 L222.1777,27.3418 L224.6431,27.3418 L224.6431,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="246.25" y="27.5352">Navigable</text><line style="stroke:#FF0000;stroke-width:1.5;" x1="10" x2="507" y1="39" y2="39"/><ellipse cx="20" cy="50" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="473" x="29" y="53.6348">getNavigationPath(fromPosition: Vec2, toPosition: Vec2, direct: boolean) : NavigationPath</text><!--MD5=[cdaafa8582a65126389293f8669a095c]
+class Navmesh--><rect codeLine="9" fill="#FEFECE" filter="url(#fl24zix5z7ws5)" height="86.8652" id="Navmesh" style="stroke:#FF0000;stroke-width:1.5;" width="499" x="9" y="120"/><ellipse cx="227.75" cy="136" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M230.2231,142.1431 Q229.6421,142.4419 229.0029,142.5913 Q228.3638,142.7407 227.6582,142.7407 Q225.1514,142.7407 223.8315,141.0889 Q222.5117,139.437 222.5117,136.3159 Q222.5117,133.1865 223.8315,131.5347 Q225.1514,129.8828 227.6582,129.8828 Q228.3638,129.8828 229.0112,130.0322 Q229.6587,130.1816 230.2231,130.4805 L230.2231,133.2031 Q229.5923,132.6221 228.9988,132.3523 Q228.4053,132.0825 227.7744,132.0825 Q226.4297,132.0825 225.7449,133.1492 Q225.0601,134.2158 225.0601,136.3159 Q225.0601,138.4077 225.7449,139.4744 Q226.4297,140.541 227.7744,140.541 Q228.4053,140.541 228.9988,140.2712 Q229.5923,140.0015 230.2231,139.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="248.25" y="140.5352">Navmesh</text><line style="stroke:#FF0000;stroke-width:1.5;" x1="10" x2="507" y1="152" y2="152"/><polygon fill="none" points="20,158,24,162,20,166,16,162" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="29" y="166.6348">graph : PositionGraph</text><line style="stroke:#FF0000;stroke-width:1.5;" x1="10" x2="507" y1="172.9551" y2="172.9551"/><ellipse cx="20" cy="183.9551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="473" x="29" y="187.5898">getNavigationPath(fromPosition: Vec2, toPosition: Vec2, direct: boolean) : NavigationPath</text><polygon fill="#FFFF44" points="20,191.9102,24,195.9102,20,199.9102,16,195.9102" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="220" x="29" y="200.5449">getClosestNode(position: Vec2) : number</text><!--MD5=[1efb7fc8ab702aa96365737ce627f28a]
+reverse link Navigable to Navmesh--><path codeLine="14" d="M258.5,80.33 C258.5,93.2 258.5,107.14 258.5,119.81 " fill="none" id="Navigable-backto-Navmesh" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="251.5,80.1,258.5,60.1,265.5,80.1,251.5,80.1" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[aa1459c67b0cf0980ebfe6618903f062]
+@startuml
+skinparam ClassArrowColor #ff0000
+skinparam ClassBorderColor #ff0000
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+interface "Navigable" {
+    +getNavigationPath(fromPosition: Vec2, toPosition: Vec2, direct: boolean) : NavigationPath
+}
+class "Navmesh" {
+    #graph : PositionGraph
+    +getNavigationPath(fromPosition: Vec2, toPosition: Vec2, direct: boolean) : NavigationPath
+    #getClosestNode(position: Vec2) : number
+}
+"Navigable" <|.. "Navmesh"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

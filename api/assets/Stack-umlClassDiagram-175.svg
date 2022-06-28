@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="337px" preserveAspectRatio="none" style="width:205px;height:337px;background:#00000000;" version="1.1" viewBox="0 0 205 337" width="205px" zoomAndPan="magnify"><defs><filter height="300%" id="f1gcbt3bl87stt" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fb7006540e733b1a9ab65208252ddbb8]
+class Stack<T>--><rect codeLine="6" fill="#FEFECE" filter="url(#f1gcbt3bl87stt)" height="190.5059" id="Stack&lt;T&gt;" style="stroke:#FF0000;stroke-width:1.5;" width="184" x="7" y="133"/><ellipse cx="65.75" cy="149" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M68.2231,155.1431 Q67.6421,155.4419 67.0029,155.5913 Q66.3638,155.7407 65.6582,155.7407 Q63.1514,155.7407 61.8315,154.0889 Q60.5117,152.437 60.5117,149.3159 Q60.5117,146.1865 61.8315,144.5347 Q63.1514,142.8828 65.6582,142.8828 Q66.3638,142.8828 67.0112,143.0322 Q67.6587,143.1816 68.2231,143.4805 L68.2231,146.2031 Q67.5923,145.6221 66.9988,145.3523 Q66.4053,145.0825 65.7744,145.0825 Q64.4297,145.0825 63.7449,146.1492 Q63.0601,147.2158 63.0601,149.3159 Q63.0601,151.4077 63.7449,152.4744 Q64.4297,153.541 65.7744,153.541 Q66.4053,153.541 66.9988,153.2712 Q67.5923,153.0015 68.2231,152.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="86.25" y="153.5352">Stack&lt;T&gt;</text><line style="stroke:#FF0000;stroke-width:1.5;" x1="8" x2="190" y1="165" y2="165"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="173"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="27" y="179.6348">head : number</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="185.9551"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="27" y="192.5898">MAX_ELEMENTS : number</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="198.9102"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="27" y="205.5449">stack : T[]</text><line style="stroke:#FF0000;stroke-width:1.5;" x1="8" x2="190" y1="211.8652" y2="211.8652"/><ellipse cx="18" cy="222.8652" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="27" y="226.5">clear() : void</text><ellipse cx="18" cy="235.8203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="27" y="239.4551">forEach(func: Function) : void</text><ellipse cx="18" cy="248.7754" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="27" y="252.4102">isEmpty() : boolean</text><ellipse cx="18" cy="261.7305" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="27" y="265.3652">peek() : T</text><ellipse cx="18" cy="274.6855" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="27" y="278.3203">pop() : T</text><ellipse cx="18" cy="287.6406" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="27" y="291.2754">push(item: T) : void</text><ellipse cx="18" cy="300.5957" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="27" y="304.2305">size() : number</text><ellipse cx="18" cy="313.5508" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="27" y="317.1855">toString() : string</text><!--MD5=[c160724f8e3bb89ca8141a12554ac2e3]
+class Collection--><rect codeLine="19" fill="#FEFECE" filter="url(#f1gcbt3bl87stt)" height="65.9102" id="Collection" style="stroke:#FF0000;stroke-width:1.5;" width="184" x="7" y="7"/><ellipse cx="67.25" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M63.6777,19.2651 L63.6777,17.1069 L71.0571,17.1069 L71.0571,19.2651 L68.5918,19.2651 L68.5918,27.3418 L71.0571,27.3418 L71.0571,29.5 L63.6777,29.5 L63.6777,27.3418 L66.1431,27.3418 L66.1431,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="87.75" y="27.5352">Collection</text><line style="stroke:#FF0000;stroke-width:1.5;" x1="8" x2="190" y1="39" y2="39"/><ellipse cx="18" cy="50" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="27" y="53.6348">clear() : void</text><ellipse cx="18" cy="62.9551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="27" y="66.5898">forEach(func: Function) : void</text><!--MD5=[61f25ba62b4e6d47c88d6f463867a92a]
+reverse link Collection to Stack<T>--><path codeLine="23" d="M99,93.21 C99,105.63 99,119.25 99,132.91 " fill="none" id="Collection-backto-Stack&lt;T&gt;" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="92,93.06,99,73.06,106,93.06,92,93.06" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[97abef6e31f589241491f0287e63ab68]
+@startuml
+skinparam ClassArrowColor #ff0000
+skinparam ClassBorderColor #ff0000
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+class "Stack<T>" {
+    -head : number
+    -MAX_ELEMENTS : number
+    -stack : T[]
+    +clear() : void
+    +forEach(func: Function) : void
+    +isEmpty() : boolean
+    +peek() : T
+    +pop() : T
+    +push(item: T) : void
+    +size() : number
+    +toString() : string
+}
+interface "Collection" {
+    +clear() : void
+    +forEach(func: Function) : void
+}
+"Collection" <|.. "Stack<T>"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

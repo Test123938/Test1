@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="285px" preserveAspectRatio="none" style="width:435px;height:285px;background:#00000000;" version="1.1" viewBox="0 0 435 285" width="435px" zoomAndPan="magnify"><defs><filter height="300%" id="fxkc8uz1bkmb5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ae502c27f70242ed1e04d7ee725c894e]
+class BattleSystem--><rect codeLine="6" fill="#FEFECE" filter="url(#fxkc8uz1bkmb5)" height="151.6406" id="BattleSystem" style="stroke:#FF0000;stroke-width:1.5;" width="414" x="7" y="120"/><ellipse cx="173.75" cy="136" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M173.6133,131.3481 L172.4595,136.4199 L174.7754,136.4199 Z M172.1191,129.1069 L175.1157,129.1069 L178.4609,141.5 L176.0122,141.5 L175.2485,138.437 L171.9697,138.437 L171.2227,141.5 L168.7739,141.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="194.25" y="140.5352">BattleSystem</text><line style="stroke:#FF0000;stroke-width:1.5;" x1="8" x2="420" y1="152" y2="152"/><ellipse cx="18" cy="163" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="27" y="166.6348">eventQueue : EventQueue</text><ellipse cx="18" cy="175.9551" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="27" y="179.5898">receiver : Receiver</text><ellipse cx="18" cy="188.9102" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="27" y="192.5449">statSystem : string[]</text><ellipse cx="18" cy="201.8652" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="260" x="27" y="205.5">units : Map&lt;number, Record&lt;string, number&gt;&gt;</text><line style="stroke:#FF0000;stroke-width:1.5;" x1="8" x2="420" y1="211.8203" y2="211.8203"/><ellipse cx="18" cy="222.8203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="276" x="27" y="226.4551">getUnitStats(id: number) : Record&lt;string, number&gt;</text><ellipse cx="18" cy="235.7754" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="335" x="27" y="239.4102">initalizeUnit(id: number, stats: Record&lt;string, number&gt;) : void</text><ellipse cx="18" cy="248.7305" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="158" x="27" y="252.3652">update(deltaT: number) : void</text><ellipse cx="18" cy="261.6855" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="388" x="27" y="265.3203">validateStats(stats: Record&lt;string, number&gt;) : Record&lt;string, number&gt;</text><!--MD5=[8336922478991a54f539d469b4e48cc0]
+class Updateable--><rect codeLine="16" fill="#FEFECE" filter="url(#fxkc8uz1bkmb5)" height="52.9551" id="Updateable" style="stroke:#FF0000;stroke-width:1.5;" width="184" x="122" y="7"/><ellipse cx="176.25" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M172.6777,19.2651 L172.6777,17.1069 L180.0571,17.1069 L180.0571,19.2651 L177.5918,19.2651 L177.5918,27.3418 L180.0571,27.3418 L180.0571,29.5 L172.6777,29.5 L172.6777,27.3418 L175.1431,27.3418 L175.1431,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="196.75" y="27.5352">Updateable</text><line style="stroke:#FF0000;stroke-width:1.5;" x1="123" x2="305" y1="39" y2="39"/><ellipse cx="133" cy="50" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="142" y="53.6348">update(deltaT: number) : void</text><!--MD5=[116a87e6de8842d7780aca7d13997841]
+reverse link Updateable to BattleSystem--><path codeLine="19" d="M214,80.58 C214,92.81 214,106.35 214,119.7 " fill="none" id="Updateable-backto-BattleSystem" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="207,80.29,214,60.29,221,80.29,207,80.29" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[5871efa303678a87cc893394e61a7547]
+@startuml
+skinparam ClassArrowColor #ff0000
+skinparam ClassBorderColor #ff0000
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+abstract class "BattleSystem" {
+    +eventQueue : EventQueue
+    +receiver : Receiver
+    +statSystem : string[]
+    +units : Map<number, Record<string, number>>
+    +getUnitStats(id: number) : Record<string, number>
+    +initalizeUnit(id: number, stats: Record<string, number>) : void
+    {abstract} +update(deltaT: number) : void
+    +validateStats(stats: Record<string, number>) : Record<string, number>
+}
+interface "Updateable" {
+    +update(deltaT: number) : void
+}
+"Updateable" <|.. "BattleSystem"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
