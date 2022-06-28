@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="237px" preserveAspectRatio="none" style="width:264px;height:237px;background:#00000000;" version="1.1" viewBox="0 0 264 237" width="264px" zoomAndPan="magnify"><defs><filter height="300%" id="f151hwa5lw8o0g" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7340ddc93ee3d3f5fef34806a115f504]
+class Graphic--><rect codeLine="6" fill="#FEFECE" filter="url(#f151hwa5lw8o0g)" height="32" id="Graphic" style="stroke:#FF0000;stroke-width:1.5;" width="77" x="89" y="99"/><ellipse cx="104" cy="115" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M103.8633,110.3481 L102.7095,115.4199 L105.0254,115.4199 Z M102.3691,108.1069 L105.3657,108.1069 L108.7109,120.5 L106.2622,120.5 L105.4985,117.437 L102.2197,117.437 L101.4727,120.5 L99.0239,120.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="118" y="119.5352">Graphic</text><!--MD5=[2e70b9baf931f95a6b812c993ae5d283]
+class CanvasNode--><rect codeLine="8" fill="#FEFECE" filter="url(#f151hwa5lw8o0g)" height="32" id="CanvasNode" style="stroke:#FF0000;stroke-width:1.5;" width="104" x="75.5" y="7"/><ellipse cx="90.5" cy="23" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M90.3633,18.3481 L89.2095,23.4199 L91.5254,23.4199 Z M88.8691,16.1069 L91.8657,16.1069 L95.2109,28.5 L92.7622,28.5 L91.9985,25.437 L88.7197,25.437 L87.9727,28.5 L85.5239,28.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="104.5" y="27.5352">CanvasNode</text><!--MD5=[736dfa021baaf4f381c9890dd397bfe9]
+class Line--><rect codeLine="11" fill="#FEFECE" filter="url(#f151hwa5lw8o0g)" height="32" id="Line" style="stroke:#FF0000;stroke-width:1.5;" width="55" x="7" y="191"/><ellipse cx="22" cy="207" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M24.4731,213.1431 Q23.8921,213.4419 23.2529,213.5913 Q22.6138,213.7407 21.9082,213.7407 Q19.4014,213.7407 18.0815,212.0889 Q16.7617,210.437 16.7617,207.3159 Q16.7617,204.1865 18.0815,202.5347 Q19.4014,200.8828 21.9082,200.8828 Q22.6138,200.8828 23.2612,201.0322 Q23.9087,201.1816 24.4731,201.4805 L24.4731,204.2031 Q23.8423,203.6221 23.2488,203.3523 Q22.6553,203.0825 22.0244,203.0825 Q20.6797,203.0825 19.9949,204.1492 Q19.3101,205.2158 19.3101,207.3159 Q19.3101,209.4077 19.9949,210.4744 Q20.6797,211.541 22.0244,211.541 Q22.6553,211.541 23.2488,211.2712 Q23.8423,211.0015 24.4731,210.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="23" x="36" y="211.5352">Line</text><!--MD5=[972bde5337b4335dd91fa5354c932445]
+class Point--><rect codeLine="14" fill="#FEFECE" filter="url(#f151hwa5lw8o0g)" height="32" id="Point" style="stroke:#FF0000;stroke-width:1.5;" width="60" x="97.5" y="191"/><ellipse cx="112.5" cy="207" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M114.9731,213.1431 Q114.3921,213.4419 113.7529,213.5913 Q113.1138,213.7407 112.4082,213.7407 Q109.9014,213.7407 108.5815,212.0889 Q107.2617,210.437 107.2617,207.3159 Q107.2617,204.1865 108.5815,202.5347 Q109.9014,200.8828 112.4082,200.8828 Q113.1138,200.8828 113.7612,201.0322 Q114.4087,201.1816 114.9731,201.4805 L114.9731,204.2031 Q114.3423,203.6221 113.7488,203.3523 Q113.1553,203.0825 112.5244,203.0825 Q111.1797,203.0825 110.4949,204.1492 Q109.8101,205.2158 109.8101,207.3159 Q109.8101,209.4077 110.4949,210.4744 Q111.1797,211.541 112.5244,211.541 Q113.1553,211.541 113.7488,211.2712 Q114.3423,211.0015 114.9731,210.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="28" x="126.5" y="211.5352">Point</text><!--MD5=[f3e902e8e978ff376c789f1724075ffe]
+class Rect--><rect codeLine="17" fill="#FEFECE" filter="url(#f151hwa5lw8o0g)" height="32" id="Rect" style="stroke:#FF0000;stroke-width:1.5;" width="57" x="193" y="191"/><ellipse cx="208" cy="207" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M210.4731,213.1431 Q209.8921,213.4419 209.2529,213.5913 Q208.6138,213.7407 207.9082,213.7407 Q205.4014,213.7407 204.0815,212.0889 Q202.7617,210.437 202.7617,207.3159 Q202.7617,204.1865 204.0815,202.5347 Q205.4014,200.8828 207.9082,200.8828 Q208.6138,200.8828 209.2612,201.0322 Q209.9087,201.1816 210.4731,201.4805 L210.4731,204.2031 Q209.8423,203.6221 209.2488,203.3523 Q208.6553,203.0825 208.0244,203.0825 Q206.6797,203.0825 205.9949,204.1492 Q205.3101,205.2158 205.3101,207.3159 Q205.3101,209.4077 205.9949,210.4744 Q206.6797,211.541 208.0244,211.541 Q208.6553,211.541 209.2488,211.2712 Q209.8423,211.0015 210.4731,210.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="25" x="222" y="211.5352">Rect</text><!--MD5=[d003a9a1065af00df050b0f80ad30ecb]
+reverse link CanvasNode to Graphic--><path codeLine="10" d="M127.5,59.61 C127.5,73.31 127.5,88.22 127.5,98.96 " fill="none" id="CanvasNode-backto-Graphic" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="120.5,59.27,127.5,39.27,134.5,59.27,120.5,59.27" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[733bd4e9995550c97bb36fa7d0813cc7]
+reverse link Graphic to Line--><path codeLine="13" d="M97.23,145.29 C81.48,160.54 62.88,178.54 50.04,190.96 " fill="none" id="Graphic-backto-Line" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="92.48,140.15,111.72,131.27,102.22,150.21,92.48,140.15" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[a2cbc0813eaaca3822c909d1bb909502]
+reverse link Graphic to Point--><path codeLine="16" d="M127.5,151.61 C127.5,165.31 127.5,180.22 127.5,190.96 " fill="none" id="Graphic-backto-Point" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="120.5,151.27,127.5,131.27,134.5,151.27,120.5,151.27" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[cf74fa773113f26bb33b44e85cfa56c3]
+reverse link Graphic to Rect--><path codeLine="19" d="M158.09,145.29 C174.02,160.54 192.82,178.54 205.79,190.96 " fill="none" id="Graphic-backto-Rect" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="153.05,150.15,143.45,131.27,162.73,140.04,153.05,150.15" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[879da2ab545628b85b6cfa553feab7cb]
+@startuml
+skinparam ClassArrowColor #ff0000
+skinparam ClassBorderColor #ff0000
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+abstract class "Graphic" {
+}
+abstract class "CanvasNode" {
+}
+"CanvasNode" <|- - "Graphic"
+class "Line" {
+}
+"Graphic" <|- - "Line"
+class "Point" {
+}
+"Graphic" <|- - "Point"
+class "Rect" {
+}
+"Graphic" <|- - "Rect"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

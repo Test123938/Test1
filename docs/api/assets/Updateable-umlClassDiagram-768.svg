@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="145px" preserveAspectRatio="none" style="width:683px;height:145px;background:#00000000;" version="1.1" viewBox="0 0 683 145" width="683px" zoomAndPan="magnify"><defs><filter height="300%" id="fx6vd6pz6tcoe" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8336922478991a54f539d469b4e48cc0]
+class Updateable--><rect codeLine="6" fill="#FEFECE" filter="url(#fx6vd6pz6tcoe)" height="32" id="Updateable" style="stroke:#FF0000;stroke-width:1.5;" width="99" x="265" y="7"/><ellipse cx="280" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M276.4277,19.2651 L276.4277,17.1069 L283.8071,17.1069 L283.8071,19.2651 L281.3418,19.2651 L281.3418,27.3418 L283.8071,27.3418 L283.8071,29.5 L276.4277,29.5 L276.4277,27.3418 L278.8931,27.3418 L278.8931,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="294" y="27.5352">Updateable</text><!--MD5=[d755c5174fbc4166a0b82a39f0ad1a0e]
+class AI--><rect codeLine="8" fill="#FEFECE" filter="url(#fx6vd6pz6tcoe)" height="32" id="AI" style="stroke:#FF0000;stroke-width:1.5;" width="43" x="7" y="99"/><ellipse cx="22" cy="115" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M18.4277,111.2651 L18.4277,109.1069 L25.8071,109.1069 L25.8071,111.2651 L23.3418,111.2651 L23.3418,119.3418 L25.8071,119.3418 L25.8071,121.5 L18.4277,121.5 L18.4277,119.3418 L20.8931,119.3418 L20.8931,111.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="11" x="36" y="119.5352">AI</text><!--MD5=[3fb99073a4a5a190dfd5e05004425094]
+class GoapAI--><rect codeLine="11" fill="#FEFECE" filter="url(#fx6vd6pz6tcoe)" height="32" id="GoapAI" style="stroke:#FF0000;stroke-width:1.5;" width="74" x="85.5" y="99"/><ellipse cx="100.5" cy="115" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M96.9277,111.2651 L96.9277,109.1069 L104.3071,109.1069 L104.3071,111.2651 L101.8418,111.2651 L101.8418,119.3418 L104.3071,119.3418 L104.3071,121.5 L96.9277,121.5 L96.9277,119.3418 L99.3931,119.3418 L99.3931,111.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="114.5" y="119.5352">GoapAI</text><!--MD5=[ae502c27f70242ed1e04d7ee725c894e]
+class BattleSystem--><rect codeLine="14" fill="#FEFECE" filter="url(#fx6vd6pz6tcoe)" height="32" id="BattleSystem" style="stroke:#FF0000;stroke-width:1.5;" width="104" x="194.5" y="99"/><ellipse cx="209.5" cy="115" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M209.3633,110.3481 L208.2095,115.4199 L210.5254,115.4199 Z M207.8691,108.1069 L210.8657,108.1069 L214.2109,120.5 L211.7622,120.5 L210.9985,117.437 L207.7197,117.437 L206.9727,120.5 L204.5239,120.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="223.5" y="119.5352">BattleSystem</text><!--MD5=[372f7354164cd38fc5cfe01cbfd4962a]
+class GameNode--><rect codeLine="17" fill="#FEFECE" filter="url(#fx6vd6pz6tcoe)" height="32" id="GameNode" style="stroke:#FF0000;stroke-width:1.5;" width="97" x="334" y="99"/><ellipse cx="349" cy="115" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M348.8633,110.3481 L347.7095,115.4199 L350.0254,115.4199 Z M347.3691,108.1069 L350.3657,108.1069 L353.7109,120.5 L351.2622,120.5 L350.4985,117.437 L347.2197,117.437 L346.4727,120.5 L344.0239,120.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="65" x="363" y="119.5352">GameNode</text><!--MD5=[60d6b92408f98aed8df94d5c6e04aa63]
+class State--><rect codeLine="20" fill="#FEFECE" filter="url(#fx6vd6pz6tcoe)" height="32" id="State" style="stroke:#FF0000;stroke-width:1.5;" width="60" x="466.5" y="99"/><ellipse cx="481.5" cy="115" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M481.3633,110.3481 L480.2095,115.4199 L482.5254,115.4199 Z M479.8691,108.1069 L482.8657,108.1069 L486.2109,120.5 L483.7622,120.5 L482.9985,117.437 L479.7197,117.437 L478.9727,120.5 L476.5239,120.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="28" x="495.5" y="119.5352">State</text><!--MD5=[3626c233e602113c8cf5977cfac9c02f]
+class StateMachine--><rect codeLine="23" fill="#FEFECE" filter="url(#fx6vd6pz6tcoe)" height="32" id="StateMachine" style="stroke:#FF0000;stroke-width:1.5;" width="107" x="562" y="99"/><ellipse cx="577" cy="115" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M579.4731,121.1431 Q578.8921,121.4419 578.2529,121.5913 Q577.6138,121.7407 576.9082,121.7407 Q574.4014,121.7407 573.0815,120.0889 Q571.7617,118.437 571.7617,115.3159 Q571.7617,112.1865 573.0815,110.5347 Q574.4014,108.8828 576.9082,108.8828 Q577.6138,108.8828 578.2612,109.0322 Q578.9087,109.1816 579.4731,109.4805 L579.4731,112.2031 Q578.8423,111.6221 578.2488,111.3523 Q577.6553,111.0825 577.0244,111.0825 Q575.6797,111.0825 574.9949,112.1492 Q574.3101,113.2158 574.3101,115.3159 Q574.3101,117.4077 574.9949,118.4744 Q575.6797,119.541 577.0244,119.541 Q577.6553,119.541 578.2488,119.2712 Q578.8423,119.0015 579.4731,118.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="591" y="119.5352">StateMachine</text><!--MD5=[c5e8ac391f407d9b8396aceaeb34a98c]
+reverse link Updateable to AI--><path codeLine="10" d="M245.53,43.49 C195.75,57.91 127.1,78.52 67.5,99 C61.87,100.93 55.85,103.17 50.26,105.31 " fill="none" id="Updateable-backto-AI" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="243.8,36.7,264.96,37.9,247.67,50.16,243.8,36.7" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[c0768d1f10b828a0078072e007f6536b]
+reverse link Updateable to GoapAI--><path codeLine="13" d="M263.87,47.73 C229.31,63.94 184.54,84.92 154.74,98.89 " fill="none" id="Updateable-backto-GoapAI" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="261.28,41.21,282.36,39.06,267.23,53.89,261.28,41.21" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[116a87e6de8842d7780aca7d13997841]
+reverse link Updateable to BattleSystem--><path codeLine="16" d="M290.55,55.69 C279.44,70.4 266.76,87.18 257.86,98.96 " fill="none" id="Updateable-backto-BattleSystem" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="285.32,51,302.96,39.27,296.49,59.44,285.32,51" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[6b79549698de2a4321184331f92f8fc2]
+reverse link Updateable to GameNode--><path codeLine="19" d="M338.45,55.69 C349.56,70.4 362.24,87.18 371.14,98.96 " fill="none" id="Updateable-backto-GameNode" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="332.51,59.44,326.04,39.27,343.68,51,332.51,59.44" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[e69b222742f49335ab86287f8b6feabb]
+reverse link Updateable to State--><path codeLine="22" d="M363.01,47.99 C395.82,64.21 438.14,85.14 466.24,99.04 " fill="none" id="Updateable-backto-State" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="359.79,54.2,344.96,39.06,365.99,41.65,359.79,54.2" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[3bc2cdcd3300b9dedc3e2850aa3bb253]
+reverse link Updateable to StateMachine--><path codeLine="25" d="M383.58,44.66 C439,61.23 515.49,84.1 565.22,98.97 " fill="none" id="Updateable-backto-StateMachine" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="381.36,51.3,364.2,38.86,385.37,37.88,381.36,51.3" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[8a84e0d609370506825be6122d31509d]
+@startuml
+skinparam ClassArrowColor #ff0000
+skinparam ClassBorderColor #ff0000
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+interface "Updateable" {
+}
+interface "AI" {
+}
+"Updateable" <|- - "AI"
+interface "GoapAI" {
+}
+"Updateable" <|- - "GoapAI"
+abstract class "BattleSystem" {
+}
+"Updateable" <|.. "BattleSystem"
+abstract class "GameNode" {
+}
+"Updateable" <|.. "GameNode"
+abstract class "State" {
+}
+"Updateable" <|.. "State"
+class "StateMachine" {
+}
+"Updateable" <|.. "StateMachine"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
