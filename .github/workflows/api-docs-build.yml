@@ -3,9 +3,7 @@
 name: api-docs-build
 
 on:
-  push:
-    branches:
-      - gh-pages
+  push
 
 permissions: write-all
 
