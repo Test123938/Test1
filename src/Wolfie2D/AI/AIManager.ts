@@ -7,6 +7,8 @@ import Map from "../DataTypes/Collections/Map";
 /**
  * A manager class for all of the AI in a scene. Keeps a list of registered actors and 
  * handles AI generation for actors.
+ * 
+ * Testing making changes. Hello?
  */
 export default class AIManager implements Updateable {
 	/** The array of registered actors */
