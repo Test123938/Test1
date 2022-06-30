@@ -18,6 +18,7 @@
         "includes": "./includes",
         "media": "./media",
         "readme": "./readme.md",
+        "theme": "hierarchy",
         "umlClassDiagram": {
             "type": "simple",
             "location": "local",
