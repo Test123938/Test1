@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="145px" preserveAspectRatio="none" style="width:110px;height:145px;background:#00000000;" version="1.1" viewBox="0 0 110 145" width="110px" zoomAndPan="magnify"><defs><filter height="300%" id="f1i7usoz5n37mk" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9bf5c5c397e215ecd3d6a8b442adcab6]
+class Navigable--><rect codeLine="6" fill="#FEFECE" filter="url(#f1i7usoz5n37mk)" height="32" id="Navigable" style="stroke:#FF0000;stroke-width:1.5;" width="89" x="7" y="7"/><ellipse cx="22" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M18.4277,19.2651 L18.4277,17.1069 L25.8071,17.1069 L25.8071,19.2651 L23.3418,19.2651 L23.3418,27.3418 L25.8071,27.3418 L25.8071,29.5 L18.4277,29.5 L18.4277,27.3418 L20.8931,27.3418 L20.8931,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="36" y="27.5352">Navigable</text><!--MD5=[cdaafa8582a65126389293f8669a095c]
+class Navmesh--><rect codeLine="8" fill="#FEFECE" filter="url(#f1i7usoz5n37mk)" height="32" id="Navmesh" style="stroke:#FF0000;stroke-width:1.5;" width="85" x="9" y="99"/><ellipse cx="24" cy="115" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M26.4731,121.1431 Q25.8921,121.4419 25.2529,121.5913 Q24.6138,121.7407 23.9082,121.7407 Q21.4014,121.7407 20.0815,120.0889 Q18.7617,118.437 18.7617,115.3159 Q18.7617,112.1865 20.0815,110.5347 Q21.4014,108.8828 23.9082,108.8828 Q24.6138,108.8828 25.2612,109.0322 Q25.9087,109.1816 26.4731,109.4805 L26.4731,112.2031 Q25.8423,111.6221 25.2488,111.3523 Q24.6553,111.0825 24.0244,111.0825 Q22.6797,111.0825 21.9949,112.1492 Q21.3101,113.2158 21.3101,115.3159 Q21.3101,117.4077 21.9949,118.4744 Q22.6797,119.541 24.0244,119.541 Q24.6553,119.541 25.2488,119.2712 Q25.8423,119.0015 26.4731,118.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="38" y="119.5352">Navmesh</text><!--MD5=[1efb7fc8ab702aa96365737ce627f28a]
+reverse link Navigable to Navmesh--><path codeLine="10" d="M51.5,59.61 C51.5,73.31 51.5,88.22 51.5,98.96 " fill="none" id="Navigable-backto-Navmesh" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="44.5,59.27,51.5,39.27,58.5,59.27,44.5,59.27" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[0addde27a35d267e4822e305ebc564a0]
+@startuml
+skinparam ClassArrowColor #ff0000
+skinparam ClassBorderColor #ff0000
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+interface "Navigable" {
+}
+class "Navmesh" {
+}
+"Navigable" <|.. "Navmesh"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="145px" preserveAspectRatio="none" style="width:317px;height:145px;background:#00000000;" version="1.1" viewBox="0 0 317 145" width="317px" zoomAndPan="magnify"><defs><filter height="300%" id="f1hooksa8b7o1j" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[22fd9abb6b5f6baa829d9b24081553a5]
+class ShaderType--><rect codeLine="6" fill="#FEFECE" filter="url(#f1hooksa8b7o1j)" height="32" id="ShaderType" style="stroke:#FF0000;stroke-width:1.5;" width="101" x="104" y="7"/><ellipse cx="119" cy="23" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M118.8633,18.3481 L117.7095,23.4199 L120.0254,23.4199 Z M117.3691,16.1069 L120.3657,16.1069 L123.7109,28.5 L121.2622,28.5 L120.4985,25.437 L117.2197,25.437 L116.4727,28.5 L114.0239,28.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="69" x="133" y="27.5352">ShaderType</text><!--MD5=[7f4652fd4e94a9ca0d88a5de6f2f5d71]
+class PointShaderType--><rect codeLine="8" fill="#FEFECE" filter="url(#f1hooksa8b7o1j)" height="32" id="PointShaderType" style="stroke:#FF0000;stroke-width:1.5;" width="129" x="7" y="99"/><ellipse cx="22" cy="115" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M24.4731,121.1431 Q23.8921,121.4419 23.2529,121.5913 Q22.6138,121.7407 21.9082,121.7407 Q19.4014,121.7407 18.0815,120.0889 Q16.7617,118.437 16.7617,115.3159 Q16.7617,112.1865 18.0815,110.5347 Q19.4014,108.8828 21.9082,108.8828 Q22.6138,108.8828 23.2612,109.0322 Q23.9087,109.1816 24.4731,109.4805 L24.4731,112.2031 Q23.8423,111.6221 23.2488,111.3523 Q22.6553,111.0825 22.0244,111.0825 Q20.6797,111.0825 19.9949,112.1492 Q19.3101,113.2158 19.3101,115.3159 Q19.3101,117.4077 19.9949,118.4744 Q20.6797,119.541 22.0244,119.541 Q22.6553,119.541 23.2488,119.2712 Q23.8423,119.0015 24.4731,118.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="36" y="119.5352">PointShaderType</text><!--MD5=[a20a8f5c719dd0b14625af93e214cb5b]
+class QuadShaderType--><rect codeLine="11" fill="#FEFECE" filter="url(#f1hooksa8b7o1j)" height="32" id="QuadShaderType" style="stroke:#FF0000;stroke-width:1.5;" width="132" x="171.5" y="99"/><ellipse cx="186.5" cy="115" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M186.3633,110.3481 L185.2095,115.4199 L187.5254,115.4199 Z M184.8691,108.1069 L187.8657,108.1069 L191.2109,120.5 L188.7622,120.5 L187.9985,117.437 L184.7197,117.437 L183.9727,120.5 L181.5239,120.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="100" x="200.5" y="119.5352">QuadShaderType</text><!--MD5=[131c144c9451913a8ecb16e04bde4db5]
+reverse link ShaderType to PointShaderType--><path codeLine="10" d="M126.61,54.25 C112.74,69.29 96.59,86.8 85.37,98.96 " fill="none" id="ShaderType-backto-PointShaderType" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="121.72,49.22,140.42,39.27,132.01,58.72,121.72,49.22" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[07878e31c987d625e9411fa2067689fe]
+reverse link ShaderType to QuadShaderType--><path codeLine="13" d="M182.39,54.25 C196.26,69.29 212.41,86.8 223.63,98.96 " fill="none" id="ShaderType-backto-QuadShaderType" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="176.99,58.72,168.58,39.27,187.28,49.22,176.99,58.72" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[d1cc3aab0bd479409867b45998b6e640]
+@startuml
+skinparam ClassArrowColor #ff0000
+skinparam ClassBorderColor #ff0000
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+abstract class "ShaderType" {
+}
+class "PointShaderType" {
+}
+"ShaderType" <|- - "PointShaderType"
+abstract class "QuadShaderType" {
+}
+"ShaderType" <|- - "QuadShaderType"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

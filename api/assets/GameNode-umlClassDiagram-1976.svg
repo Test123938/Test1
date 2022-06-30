@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="237px" preserveAspectRatio="none" style="width:736px;height:237px;background:#00000000;" version="1.1" viewBox="0 0 736 237" width="736px" zoomAndPan="magnify"><defs><filter height="300%" id="f1l231007ns62p" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[372f7354164cd38fc5cfe01cbfd4962a]
+class GameNode--><rect codeLine="6" fill="#FEFECE" filter="url(#f1l231007ns62p)" height="32" id="GameNode" style="stroke:#FF0000;stroke-width:1.5;" width="97" x="303" y="99"/><ellipse cx="318" cy="115" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M317.8633,110.3481 L316.7095,115.4199 L319.0254,115.4199 Z M316.3691,108.1069 L319.3657,108.1069 L322.7109,120.5 L320.2622,120.5 L319.4985,117.437 L316.2197,117.437 L315.4727,120.5 L313.0239,120.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="65" x="332" y="119.5352">GameNode</text><!--MD5=[3d9fc3540ad3b231ba3b05db83b9fa8c]
+class Positioned--><rect codeLine="8" fill="#FEFECE" filter="url(#f1l231007ns62p)" height="32" id="Positioned" style="stroke:#FF0000;stroke-width:1.5;" width="91" x="7" y="7"/><ellipse cx="22" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M18.4277,19.2651 L18.4277,17.1069 L25.8071,17.1069 L25.8071,19.2651 L23.3418,19.2651 L23.3418,27.3418 L25.8071,27.3418 L25.8071,29.5 L18.4277,29.5 L18.4277,27.3418 L20.8931,27.3418 L20.8931,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="36" y="27.5352">Positioned</text><!--MD5=[791f77162237d0bfa3ea62b7dc12691d]
+class Unique--><rect codeLine="11" fill="#FEFECE" filter="url(#f1l231007ns62p)" height="32" id="Unique" style="stroke:#FF0000;stroke-width:1.5;" width="72" x="133.5" y="7"/><ellipse cx="148.5" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M144.9277,19.2651 L144.9277,17.1069 L152.3071,17.1069 L152.3071,19.2651 L149.8418,19.2651 L149.8418,27.3418 L152.3071,27.3418 L152.3071,29.5 L144.9277,29.5 L144.9277,27.3418 L147.3931,27.3418 L147.3931,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="162.5" y="27.5352">Unique</text><!--MD5=[8336922478991a54f539d469b4e48cc0]
+class Updateable--><rect codeLine="14" fill="#FEFECE" filter="url(#f1l231007ns62p)" height="32" id="Updateable" style="stroke:#FF0000;stroke-width:1.5;" width="99" x="241" y="7"/><ellipse cx="256" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M252.4277,19.2651 L252.4277,17.1069 L259.8071,17.1069 L259.8071,19.2651 L257.3418,19.2651 L257.3418,27.3418 L259.8071,27.3418 L259.8071,29.5 L252.4277,29.5 L252.4277,27.3418 L254.8931,27.3418 L254.8931,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="270" y="27.5352">Updateable</text><!--MD5=[5f1cfa14c8cfe475436e7a24d43d359f]
+class Physical--><rect codeLine="17" fill="#FEFECE" filter="url(#f1l231007ns62p)" height="32" id="Physical" style="stroke:#FF0000;stroke-width:1.5;" width="77" x="375" y="7"/><ellipse cx="390" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M386.4277,19.2651 L386.4277,17.1069 L393.8071,17.1069 L393.8071,19.2651 L391.3418,19.2651 L391.3418,27.3418 L393.8071,27.3418 L393.8071,29.5 L386.4277,29.5 L386.4277,27.3418 L388.8931,27.3418 L388.8931,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="404" y="27.5352">Physical</text><!--MD5=[44201db48fb57df1a9c7f5b6b15426b0]
+class Actor--><rect codeLine="20" fill="#FEFECE" filter="url(#f1l231007ns62p)" height="32" id="Actor" style="stroke:#FF0000;stroke-width:1.5;" width="62" x="487.5" y="7"/><ellipse cx="502.5" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M498.9277,19.2651 L498.9277,17.1069 L506.3071,17.1069 L506.3071,19.2651 L503.8418,19.2651 L503.8418,27.3418 L506.3071,27.3418 L506.3071,29.5 L498.9277,29.5 L498.9277,27.3418 L501.3931,27.3418 L501.3931,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="516.5" y="27.5352">Actor</text><!--MD5=[412067033dd25c37850800261ed04026]
+class DebugRenderable--><rect codeLine="23" fill="#FEFECE" filter="url(#f1l231007ns62p)" height="32" id="DebugRenderable" style="stroke:#FF0000;stroke-width:1.5;" width="137" x="585" y="7"/><ellipse cx="600" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M596.4277,19.2651 L596.4277,17.1069 L603.8071,17.1069 L603.8071,19.2651 L601.3418,19.2651 L601.3418,27.3418 L603.8071,27.3418 L603.8071,29.5 L596.4277,29.5 L596.4277,27.3418 L598.8931,27.3418 L598.8931,19.2651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="105" x="614" y="27.5352">DebugRenderable</text><!--MD5=[2e70b9baf931f95a6b812c993ae5d283]
+class CanvasNode--><rect codeLine="26" fill="#FEFECE" filter="url(#f1l231007ns62p)" height="32" id="CanvasNode" style="stroke:#FF0000;stroke-width:1.5;" width="104" x="299.5" y="191"/><ellipse cx="314.5" cy="207" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M314.3633,202.3481 L313.2095,207.4199 L315.5254,207.4199 Z M312.8691,200.1069 L315.8657,200.1069 L319.2109,212.5 L316.7622,212.5 L315.9985,209.437 L312.7197,209.437 L311.9727,212.5 L309.5239,212.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="72" x="328.5" y="211.5352">CanvasNode</text><!--MD5=[988af3b7d4280323b6a1b16a5782560f]
+reverse link Positioned to GameNode--><path codeLine="10" d="M117.63,43.6 C173.37,60.38 252.38,84.17 302.79,99.34 " fill="none" id="Positioned-backto-GameNode" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="115.37,50.23,98.24,37.77,119.41,36.83,115.37,50.23" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[fc11cd5f43146ebdedae4dd40e58c8e2]
+reverse link Unique to GameNode--><path codeLine="13" d="M217.95,47.96 C250.65,64.13 292.82,84.98 320.94,98.89 " fill="none" id="Unique-backto-GameNode" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="214.79,54.2,199.96,39.06,220.99,41.65,214.79,54.2" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[6b79549698de2a4321184331f92f8fc2]
+reverse link Updateable to GameNode--><path codeLine="16" d="M312.31,56.18 C322.2,70.77 333.41,87.31 341.31,98.96 " fill="none" id="Updateable-backto-GameNode" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="306.27,59.75,300.85,39.27,317.86,51.9,306.27,59.75" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[74eb831c94c41f2a23b18a5d2c08f781]
+reverse link Physical to GameNode--><path codeLine="19" d="M391.33,56.18 C381.28,70.77 369.88,87.31 361.86,98.96 " fill="none" id="Physical-backto-GameNode" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="385.87,51.77,402.98,39.27,397.4,59.71,385.87,51.77" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[f47a6a14bfb94847068821a1f654d532]
+reverse link Actor to GameNode--><path codeLine="22" d="M472.78,48.64 C442.95,64.71 404.98,85.18 379.54,98.89 " fill="none" id="Actor-backto-GameNode" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="469.62,42.39,490.55,39.06,476.26,54.71,469.62,42.39" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[f00aaf58760a6f305a1b952cdae1bbc3]
+reverse link DebugRenderable to GameNode--><path codeLine="25" d="M583.67,44.81 C527.46,61.56 449.89,84.68 400.21,99.48 " fill="none" id="DebugRenderable-backto-GameNode" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="581.79,38.07,602.95,39.06,585.78,51.48,581.79,38.07" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[3479c302f3db370c517a2738c0ce18e8]
+reverse link GameNode to CanvasNode--><path codeLine="28" d="M351.5,151.61 C351.5,165.31 351.5,180.22 351.5,190.96 " fill="none" id="GameNode-backto-CanvasNode" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="344.5,151.27,351.5,131.27,358.5,151.27,344.5,151.27" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[4d609fd3aa97f3fcd5689c0253dddc29]
+@startuml
+skinparam ClassArrowColor #ff0000
+skinparam ClassBorderColor #ff0000
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+abstract class "GameNode" {
+}
+interface "Positioned" {
+}
+"Positioned" <|.. "GameNode"
+interface "Unique" {
+}
+"Unique" <|.. "GameNode"
+interface "Updateable" {
+}
+"Updateable" <|.. "GameNode"
+interface "Physical" {
+}
+"Physical" <|.. "GameNode"
+interface "Actor" {
+}
+"Actor" <|.. "GameNode"
+interface "DebugRenderable" {
+}
+"DebugRenderable" <|.. "GameNode"
+abstract class "CanvasNode" {
+}
+"GameNode" <|- - "CanvasNode"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

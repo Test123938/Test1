@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="145px" preserveAspectRatio="none" style="width:347px;height:145px;background:#00000000;" version="1.1" viewBox="0 0 347 145" width="347px" zoomAndPan="magnify"><defs><filter height="300%" id="f8hfz38iigy16" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[93ca02bfebc1c9dff24063aaf9eca20f]
+class SceneGraph--><rect codeLine="6" fill="#FEFECE" filter="url(#f8hfz38iigy16)" height="32" id="SceneGraph" style="stroke:#FF0000;stroke-width:1.5;" width="101" x="112.5" y="7"/><ellipse cx="127.5" cy="23" fill="#A9DCDF" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M127.3633,18.3481 L126.2095,23.4199 L128.5254,23.4199 Z M125.8691,16.1069 L128.8657,16.1069 L132.2109,28.5 L129.7622,28.5 L128.9985,25.437 L125.7197,25.437 L124.9727,28.5 L122.5239,28.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="69" x="141.5" y="27.5352">SceneGraph</text><!--MD5=[067bea429084057d2f31aa67a4c51783]
+class SceneGraphArray--><rect codeLine="8" fill="#FEFECE" filter="url(#f8hfz38iigy16)" height="32" id="SceneGraphArray" style="stroke:#FF0000;stroke-width:1.5;" width="132" x="7" y="99"/><ellipse cx="22" cy="115" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M24.4731,121.1431 Q23.8921,121.4419 23.2529,121.5913 Q22.6138,121.7407 21.9082,121.7407 Q19.4014,121.7407 18.0815,120.0889 Q16.7617,118.437 16.7617,115.3159 Q16.7617,112.1865 18.0815,110.5347 Q19.4014,108.8828 21.9082,108.8828 Q22.6138,108.8828 23.2612,109.0322 Q23.9087,109.1816 24.4731,109.4805 L24.4731,112.2031 Q23.8423,111.6221 23.2488,111.3523 Q22.6553,111.0825 22.0244,111.0825 Q20.6797,111.0825 19.9949,112.1492 Q19.3101,113.2158 19.3101,115.3159 Q19.3101,117.4077 19.9949,118.4744 Q20.6797,119.541 22.0244,119.541 Q22.6553,119.541 23.2488,119.2712 Q23.8423,119.0015 24.4731,118.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="100" x="36" y="119.5352">SceneGraphArray</text><!--MD5=[74b469c5eca7313c02b2fcb4e1d50bbf]
+class SceneGraphQuadTree--><rect codeLine="11" fill="#FEFECE" filter="url(#f8hfz38iigy16)" height="32" id="SceneGraphQuadTree" style="stroke:#FF0000;stroke-width:1.5;" width="159" x="174.5" y="99"/><ellipse cx="189.5" cy="115" fill="#ADD1B2" rx="11" ry="11" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M191.9731,121.1431 Q191.3921,121.4419 190.7529,121.5913 Q190.1138,121.7407 189.4082,121.7407 Q186.9014,121.7407 185.5815,120.0889 Q184.2617,118.437 184.2617,115.3159 Q184.2617,112.1865 185.5815,110.5347 Q186.9014,108.8828 189.4082,108.8828 Q190.1138,108.8828 190.7612,109.0322 Q191.4087,109.1816 191.9731,109.4805 L191.9731,112.2031 Q191.3423,111.6221 190.7488,111.3523 Q190.1553,111.0825 189.5244,111.0825 Q188.1797,111.0825 187.4949,112.1492 Q186.8101,113.2158 186.8101,115.3159 Q186.8101,117.4077 187.4949,118.4744 Q188.1797,119.541 189.5244,119.541 Q190.1553,119.541 190.7488,119.2712 Q191.3423,119.0015 191.9731,118.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="127" x="203.5" y="119.5352">SceneGraphQuadTree</text><!--MD5=[19ec4ac8484d03ecce3c33406fc4129a]
+reverse link SceneGraph to SceneGraphArray--><path codeLine="10" d="M133.23,53.77 C118.09,68.91 100.33,86.67 88.04,98.96 " fill="none" id="SceneGraph-backto-SceneGraphArray" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="128.64,48.46,147.73,39.27,138.54,58.36,128.64,48.46" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[a119e7d1a23fb99b22e019d11415f26f]
+reverse link SceneGraph to SceneGraphQuadTree--><path codeLine="13" d="M193.1,53.77 C208.41,68.91 226.36,86.67 238.79,98.96 " fill="none" id="SceneGraph-backto-SceneGraphQuadTree" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="187.73,58.31,178.44,39.27,197.58,48.35,187.73,58.31" style="stroke:#FF0000;stroke-width:1.0;"/><!--MD5=[363f629b33ad25aa0b15f370d505c57d]
+@startuml
+skinparam ClassArrowColor #ff0000
+skinparam ClassBorderColor #ff0000
+skinparam BackgroundColor transparent
+hide empty methods
+hide empty fields
+abstract class "SceneGraph" {
+}
+class "SceneGraphArray" {
+}
+"SceneGraph" <|- - "SceneGraphArray"
+class "SceneGraphQuadTree" {
+}
+"SceneGraph" <|- - "SceneGraphQuadTree"
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 11:46:50 EST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
