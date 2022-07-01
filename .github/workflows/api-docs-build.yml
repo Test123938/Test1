@@ -8,8 +8,21 @@ on:
       - dev-api
 
 jobs:
-  # First run our unit tests - make sure they all pass
-  test:
+  # Build the engine 
+  Compile:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v3
+        with:
+          rec: dev-api
+      - name: Run Compile Test
+        run: |
+          npm install
+          npm build
+
+  # Run Unit Tests
+  Test:
+    needs: Compile
     runs-on: ubuntu-latest
     steps:
 
@@ -23,9 +36,9 @@ jobs:
         run: |
           npm install
           npm test     
-  push:
+  Push:
     # Require that the previous job, "test" was successful
-    needs: test
+    needs: Test
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -43,16 +56,18 @@ jobs:
           git config user.name ${{ github.event.pusher.name }} 
           git config user.email ${{ github.event.pusher.email }}
 
-      # Pushes API changes to the development branch for the website
+      # Fetch and merge api changes to the website branch
       - name: Fetch and Merge API Changes
         run: |
           git fetch origin
           git checkout origin/dev-api -- src
+
+      # Commit and push changes to website branch
+      - name: Commit and Push
+        run: |
           git commit -m "Updating Web Branch"
-          
-      - name: Push API Changes
-        run:
           git push
+      
           
     
     
