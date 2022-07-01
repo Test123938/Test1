@@ -18,7 +18,7 @@ jobs:
       - name: Run Compile Test
         run: |
           npm install
-          npm build
+          npm run build
 
   # Run Unit Tests
   Test:
