@@ -1,0 +1,31 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "Testing the readme? Hello?",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Test123938/Test1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Test123938/Test1/issues"
+  },
+  "homepage": "https://github.com/Test123938/Test1#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4",
+    "typedoc": "^0.23.2"
+  }
+}
