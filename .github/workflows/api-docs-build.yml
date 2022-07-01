@@ -5,7 +5,7 @@ name: api-docs-build
 on:
   push:
     branches:
-      - main
+      - dev-api
 
 jobs:
   
@@ -18,7 +18,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          ref: test
+          ref: dev-web
           fetch-depth: 0
 
       # Runs a single command using the runners shell
@@ -36,5 +36,5 @@ jobs:
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           git fetch origin
-          git merge origin/main --allow-unrelated-histories --strategy-option=theirs
+          git merge origin/dev-api --allow-unrelated-histories --strategy-option=theirs
           git push
