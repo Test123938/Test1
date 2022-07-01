@@ -1,9 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: build
+name: api-docs-build
 
 on:
-  workflow_call
+  push: 
+    branches:
+      - dev-api
+      - main
 
 jobs:
   # Build the engine 
@@ -17,3 +20,20 @@ jobs:
         run: |
           npm install
           npm run build
+
+  # Run Unit Tests
+  Test:
+    needs: Compile
+    runs-on: ubuntu-latest
+    steps:
+
+    # Check out the development branch for the api
+      - uses: actions/checkout@v3
+        with:
+          ref: dev-api
+
+    # Run npm install and then run units tests
+      - name: Run Unit Tests
+        run: |
+          npm install
+          npm test  

@@ -9,7 +9,7 @@
 export class Person {
 
     /**
-     * This is the person class constructor
+     * This is the person class constructor. HEELLO.
      */
     constructor() {
     }

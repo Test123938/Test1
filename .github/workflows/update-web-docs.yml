@@ -3,8 +3,8 @@
 name: api-docs-build
 
 on:
-  push:
-    branches:
+  push: 
+    branches: 
       - dev-api
 
 jobs:
