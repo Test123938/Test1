@@ -8,8 +8,17 @@ on:
       - dev-api
 
 jobs:
-  
-  build:
+  # First run our unit tests - make sure they all pass
+#   test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Run Unit Tests
+#         run: |
+#           npm install
+#           npm test
+          
+  # If all the tests pass - push to the website branch
+  push:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -36,3 +45,6 @@ jobs:
       - name: Push Website Changes
         run:
           git push
+          
+    
+    
