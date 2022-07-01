@@ -30,6 +30,6 @@ jobs:
           git config --global user.email "peter.t.walsh@stonybrook.edu"
           git config --global user.name "PeteyLumpkins"
           git fetch origin
-          git merge origin/main
+          git merge origin/main --allow-unrelated-histories
           git commit -m "Updating Readme from main branch"
           git push
