@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: build
+
+on:
+  workflow_call
+
+jobs:
+  # Build the engine 
+  Compile:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v3
+        with:
+          rec: dev-api
+      - name: Run Compile Test
+        run: |
+          npm install
+          npm run build
