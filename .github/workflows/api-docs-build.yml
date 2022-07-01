@@ -14,6 +14,7 @@ jobs:
     steps:
       - name: Run Unit Tests
         run: |
+          ls
           npm install
           npm test
           
