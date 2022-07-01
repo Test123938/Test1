@@ -1,4 +1,5 @@
 {
+  "includes": [],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
@@ -99,5 +100,25 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
+  "typedocOptions": {
+    "out": "./docs",
+    "name": "Test",
+    "includeVersion": true,
+    "entryPoints": [
+        "./src/"
+    ],
+    "entryPointStrategy": "expand",
+    "includes": "./includes",
+    "media": "./media",
+    "readme": "./readme.md",
+    "theme": "hierarchy",
+    "umlClassDiagram": {
+        "type": "simple",
+        "location": "local",
+        "format": "svg",
+        "arrowColor": "#ff0000",
+        "boxBorderColor": "#ff0000"
+    }
+}
 }
