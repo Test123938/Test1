@@ -15,26 +15,24 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Check out the development branch for the website
       - uses: actions/checkout@v3
         with:
           ref: dev-web
           fetch-depth: 0
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: git branch -a
-        
-      - name: User and Email
+          
+      # Configure github username and email
+      - name: Config User and Email
         run: |
-          git log -n 1 --pretty=format:%an
-          git log -n 1 --pretty=format:%ae
+          git config user.name ${{ github.event.pusher.name }} 
+          git config user.email ${{ github.event.pusher.email }}
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      # Pushes API changes to the development branch for the website
+      - name: Fetch and Merge API Changes
         run: |
-          git config user.name "$(git log -n 1 --pretty=format:%an)"
-          git config user.email "$(git log -n 1 --pretty=format:%ae)"
           git fetch origin
           git merge origin/dev-api --allow-unrelated-histories --strategy-option=theirs
+          
+      - name: Push Website Changes
+        run:
           git push
