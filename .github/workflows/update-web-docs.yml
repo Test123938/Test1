@@ -1,6 +1,8 @@
-# This is a basic workflow to help you get started with Actions
+# This workflow updates the copy of the src folder located in the dev-web
+# branch. The dev-web branch is the development branch for the documentation 
+# page for Wolfie2D.
 
-name: Update Web Docs
+name: Update
 
 on:
   push: 
