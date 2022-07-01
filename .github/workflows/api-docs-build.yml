@@ -9,13 +9,13 @@ on:
 
 jobs:
   # First run our unit tests - make sure they all pass
-#   test:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Run Unit Tests
-#         run: |
-#           npm install
-#           npm test
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Unit Tests
+        run: |
+          npm install
+          npm test
           
   # If all the tests pass - push to the website branch
   push:
@@ -40,9 +40,9 @@ jobs:
       - name: Fetch and Merge API Changes
         run: |
           git fetch origin
-          git merge origin/dev-api --allow-unrelated-histories --strategy-option=theirs
+          git merge origin/dev-api/src --allow-unrelated-histories --strategy-option=theirs
           
-      - name: Push Website Changes
+      - name: Push API Changes
         run:
           git push
           
