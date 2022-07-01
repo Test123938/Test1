@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Dir
         run: |
-          ls
+          pwd
       - name: Run Unit Tests
         run: |
           npm install
