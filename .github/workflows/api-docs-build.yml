@@ -47,7 +47,7 @@ jobs:
       - name: Fetch and Merge API Changes
         run: |
           git fetch origin
-          git checkout origin/dev-api -- src --allow-unrelated-histories --strategy-option=theirs
+          git checkout origin/dev-api -- src
           
       - name: Push API Changes
         run:
