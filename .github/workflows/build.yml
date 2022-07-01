@@ -3,6 +3,7 @@
 name: api-docs-build
 
 on:
+  - workflow_call
   push: 
     branches:
       - dev-api
