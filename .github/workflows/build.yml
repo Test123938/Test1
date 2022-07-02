@@ -10,7 +10,7 @@ on:
 jobs:
   # Check to make sure the engine compiles first - mission critical
   Compile:
-
+    runs-on: ubuntu-latest
     steps:
       - name: Branch
         run: echo ${{ github.ref_name }}
