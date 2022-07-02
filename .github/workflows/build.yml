@@ -18,10 +18,17 @@ jobs:
   Test:
     needs: Compile
     uses: ./.github/workflows/test.yml
+    with:
+      branch: ${{ github.ref_name }}
 
   # Builds and adds the documentation files for the api. 
   Docs:
     needs: Compile
     uses: ./.github/workflows/document.yml
+    with:
+      branch: ${{ github.ref_name }}
+      username: ${{ github.event.pusher.name }}
+      email: ${{ github.event.pusher.email }}
+      message: ${{ Documentation }}
 
       

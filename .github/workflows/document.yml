@@ -4,7 +4,23 @@ name: Document
 
 on: 
   workflow_call:
-
+    inputs:
+      # The name of the branch where the docs are going to be generated
+      branch:
+        required: true
+        type: string
+      # The username to use for documentation commit
+      username:
+        required: true
+        type: string
+      # The email to use for the documentation commit
+      email: 
+        required: true
+        type: string
+      # The message to be sent when the documentation is committed
+      message:
+        required: true
+        type: string
 jobs:
 
   Document:
@@ -14,7 +30,7 @@ jobs:
       # Check out the whatever branch we're on
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ inputs.branch }}
       
       # Setup OpenJDK - this is for the UML diagrams
       - uses: actions/setup-java@v3
@@ -33,12 +49,12 @@ jobs:
       # Configure github username and email
       - name: Config User and Email
         run: |
-          git config user.name ${{ github.event.pusher.name }} 
-          git config user.email ${{ github.event.pusher.email }}
+          git config user.name ${{ inputs.username }} 
+          git config user.email ${{ inputs.email }}
 
       # Add, commit, and push the docs to remote development branch
       - name: Git ACP
         run: |
           git add .
-          git commit -m "Adding docs to remote"
+          git commit -m ${{ inputs.message }}
           git push
