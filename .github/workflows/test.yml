@@ -1,0 +1,22 @@
+# This workflow runs the unit tests for the project. It should probably
+# be called after the compile test/workflow has run.
+
+name: Test
+
+on: 
+  workflow_call:
+
+jobs:
+
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Run Unit Tests
+        run: |
+          npm install
+          npm test  
