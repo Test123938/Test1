@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: Version    
+        description: 'Version'     
         required: true
-        default: v0.0.0
+        default: 'v0.0.0'
       branch:
-        description: Branch to pull from
+        description: 'Branch to pull from'
         required: true
-        default: dev-api
+        default: 'dev-api'
 
 jobs:
 
@@ -29,21 +29,30 @@ jobs:
   Compile:
     needs: Version
     uses: ./.github/workflows/compile.yml
+    with:
+      branch: ${{ inputs.branch }}
 
   # Run Unit Tests - lets check and see if the unit tests pass
   Test:
     needs: Compile
     uses: ./.github/workflows/test.yml
+    with:
+      branch: ${{ inputs.branch }}
 
   # Builds and adds the documentation files for the api. 
   Docs:
     needs: Compile
     uses: ./.github/workflows/document.yml
+    with:
+      branch: ${{ inputs.branch }}
+      username: ${{ github.actor }}
+      email: dummy
+      message: Building documentation
 
   # Fetch and merge from the development branch
   Pull:
     needs: [Docs, Test]
-
+    runs-on: ubuntu-latest
     steps:
 
       # Get the development branch
@@ -54,8 +63,7 @@ jobs:
       # Configure github username and email
       - name: Config User and Email
         run: |
-          git config user.name ${{ github.event.pusher.name }} 
-          git config user.email ${{ github.event.pusher.email }}
+          git config user.name ${{ github.actor }} 
 
       # Fetch and Merge
       - name: Fetch and Merge
@@ -66,6 +74,6 @@ jobs:
       # Tag the commit and push to main branch
       - name: Tag, Commit, Push
         run: |
-          git commit -m "Pushing changes. Testing. Hellow World!"
+          # git commit -m "Pushing changes. Testing. Hellow World!"
           git tag ${{ inputs.version }}
           git push
