@@ -46,14 +46,14 @@ jobs:
 
       # Check out the whatever branch we're on
       - uses: actions/checkout@v3
-          with:
-            ref: ${{ github.ref_name }}
+        with:
+          ref: ${{ github.ref_name }}
       
       # Setup OpenJDK - this is for the UML diagrams
       - uses: actions/setup-java@v3
-          with:
-            distribution: 'temurin' 
-            java-version: '17'
+        with:
+          distribution: 'temurin' 
+          java-version: '17'
 
       # Setup GraphViz - this is also for the UML diagrams
       - uses: ts-graphviz/setup-graphviz@v1
