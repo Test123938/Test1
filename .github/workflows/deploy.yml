@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version'     
+        description: Version    
         required: true
-        default: 'v0.0.0'
+        default: v0.0.0
       branch:
-        description: 'Branch to pull from'
+        description: Branch to pull from
         required: true
-        default: 'dev-api'
+        default: dev-api
 
 jobs:
 
