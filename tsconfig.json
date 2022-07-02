@@ -101,5 +101,24 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
-  
+  "typedocOptions": {
+    "out": "./docs/api",
+    "name": "Wolfie2D",
+    "includeVersion": true,
+    "entryPoints": [
+        "./src/Wolfie2D/index.ts"
+    ],
+    "entryPointStrategy": "expand",
+    "includes": "./includes",
+    "media": "./media",
+    "readme": "./readme.md",
+    "theme": "hierarchy",
+    "umlClassDiagram": {
+        "type": "simple",
+        "location": "local",
+        "format": "svg",
+        "arrowColor": "#ff0000",
+        "boxBorderColor": "#ff0000"
+    }
+  }
 }
