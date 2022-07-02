@@ -18,10 +18,11 @@ jobs:
 
   # Validates the version number given as input
   Validate Version:
-    - runs-on: ubuntu-latest
-    - run: |
-        npm install semver
-        npx semver ${{ github.event.inputs.version }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          npm install semver
+          npx semver ${{ github.event.inputs.version }}
 
   # Check to make sure the engine compiles first - mission critical
   Compile:
