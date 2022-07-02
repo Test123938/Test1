@@ -43,7 +43,7 @@ jobs:
   # Fetch and merge from the development branch
   Pull:
     needs: [Docs, Test]
-
+    runs-on: ubuntu-latest
     steps:
 
       # Get the development branch
