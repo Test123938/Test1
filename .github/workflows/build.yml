@@ -11,51 +11,17 @@ jobs:
   # Check to make sure the engine compiles first - mission critical
   Compile:
     uses: ./.github/workflows/compile.yml
+    with:
+      branch: ${{ github.ref_name }}
 
   # Run Unit Tests - lets check and see if the unit tests pass
   Test:
     needs: Compile
     uses: ./.github/workflows/test.yml
 
-  # Run the Linter
-  Lint:
-    needs: Compile
-    uses: ./.github/workflows/lint.yml
-
-  # Build the documentation for the api. Depends on compilation step.
+  # Builds and adds the documentation files for the api. 
   Docs:
-    needs: Lint
-    runs-on: ubuntu-latest
-    steps:
+    needs: Compile
+    uses: ./.github/workflows/document.yml
 
-      # Check out the whatever branch we're on
-      - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.ref_name }}
       
-      # Setup OpenJDK - this is for the UML diagrams
-      - uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin' 
-          java-version: '17'
-
-      # Setup GraphViz - this is also for the UML diagrams
-      - uses: ts-graphviz/setup-graphviz@v1
-
-      - name: Build API Docs
-        run: |
-          npm install
-          npm run docs
-
-      # Configure github username and email
-      - name: Config User and Email
-        run: |
-          git config user.name ${{ github.event.pusher.name }} 
-          git config user.email ${{ github.event.pusher.email }}
-
-      # Add, commit, and push the docs to remote development branch
-      - name: Git ACP
-        run: |
-          git add .
-          git commit -m "Adding docs to remote"
-          git push

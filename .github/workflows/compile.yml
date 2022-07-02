@@ -4,16 +4,26 @@ name: Compile
 
 on: 
   workflow_call:
+    inputs:
+      branch:
+        description: 'Branch to compile'
+        required: true
+        default: 'dev-api'
 
 jobs:
   
   Compile:
     runs-on: ubuntu-latest
     steps: 
+      - name: Show Branch
+        run: |
+        echo ${{ github.events.input.branch }}
+
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.ref_name }}
-      - name: Run Compile Test
+          ref: ${{ github.events.input.branch }}
+
+      - name: Compile Test
         run: |
           npm install
           npm run build
