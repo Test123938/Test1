@@ -56,5 +56,5 @@ jobs:
       - name: Git ACP
         run: |
           git add .
-          git commit -m ${{" + inputs.message + "}}
+          git commit -m "${{inputs.message}}"
           git push
