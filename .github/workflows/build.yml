@@ -29,6 +29,6 @@ jobs:
       branch: ${{ github.ref_name }}
       username: ${{ github.event.pusher.name }}
       email: ${{ github.event.pusher.email }}
-      message: ${{ Documentation }}
+      message: Committing documentation
 
       
