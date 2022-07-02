@@ -6,12 +6,9 @@ on:
   workflow_call:
     inputs:
       branch:
-        description: 'Branch to compile'
         required: true
-        default: 'dev-api'
-
+        type: string
 jobs:
-  
   Compile:
     runs-on: ubuntu-latest
     steps: 
