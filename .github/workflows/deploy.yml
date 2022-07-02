@@ -17,7 +17,7 @@ on:
 jobs:
 
   # Validates the version number given as input
-  Validate Version:
+  Version:
     runs-on: ubuntu-latest
     steps:
       - name: Check Semantic Version
@@ -27,7 +27,7 @@ jobs:
 
   # Check to make sure the engine compiles first - mission critical
   Compile:
-    needs: Validate Version
+    needs: Version
     uses: ./.github/workflows/compile.yml
 
   # Run Unit Tests - lets check and see if the unit tests pass
