@@ -64,7 +64,6 @@ jobs:
       - name: Config User and Email
         run: |
           git config user.name ${{ github.actor }} 
-          # git config user.email ${{ github.event.pusher.email }}
 
       # Fetch and Merge
       - name: Fetch and Merge
@@ -75,6 +74,6 @@ jobs:
       # Tag the commit and push to main branch
       - name: Tag, Commit, Push
         run: |
-          git commit -m "Pushing changes. Testing. Hellow World!"
+          # git commit -m "Pushing changes. Testing. Hellow World!"
           git tag ${{ inputs.version }}
           git push
