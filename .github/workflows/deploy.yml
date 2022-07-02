@@ -29,16 +29,25 @@ jobs:
   Compile:
     needs: Version
     uses: ./.github/workflows/compile.yml
+    with:
+      branch: inputs.branch
 
   # Run Unit Tests - lets check and see if the unit tests pass
   Test:
     needs: Compile
     uses: ./.github/workflows/test.yml
+    with:
+      branch: ${{ inputs.branch }}
 
   # Builds and adds the documentation files for the api. 
   Docs:
     needs: Compile
     uses: ./.github/workflows/document.yml
+    with:
+      branch: ${{ inputs.branch }}
+      username: ${{ github.actor }}
+      email: dummy
+      message: Building documentation
 
   # Fetch and merge from the development branch
   Pull:
