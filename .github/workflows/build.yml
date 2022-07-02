@@ -5,7 +5,7 @@ name: Build
 on: 
   push: 
     branches:
-      - dev-api
+      - development
 
 jobs:
   # Check to make sure the engine compiles first - mission critical
