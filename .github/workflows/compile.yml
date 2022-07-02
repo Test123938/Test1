@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Show Branch
-        run: echo ${{ github.events.input.branch }}
+        run: echo ${{ inputs.branch }}
 
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.events.input.branch }}
+          ref: ${{ inputs.branch }}
 
       - name: Compile Test
         run: |

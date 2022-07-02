@@ -39,3 +39,32 @@ jobs:
   Docs:
     needs: Compile
     uses: ./.github/workflows/document.yml
+
+  # Fetch and merge from the development branch
+  Pull:
+    needs: [Docs, Test]
+
+    steps:
+
+      # Get the development branch
+      - uses: actions/checkout@v3
+          with:
+            ref: ${{ inputs.branch }}
+
+      # Configure github username and email
+      - name: Config User and Email
+        run: |
+          git config user.name ${{ github.event.pusher.name }} 
+          git config user.email ${{ github.event.pusher.email }}
+
+      # Fetch and Merge
+      - name: Fetch and Merge
+        run: |
+          git fetch origin
+          git merge origin/main --allow-unrelated-histories --strategy-option=theirs
+
+      # Tag the commit and push to main branch
+      - name: Tag, Commit, Push
+          git commit -m "Pushing changes. Testing. Hellow World!"
+          git tag ${{ inputs.version }}
+          git push
