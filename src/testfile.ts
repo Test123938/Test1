@@ -24,3 +24,10 @@ export class Person {
         return num + 5;
     }
 }
+
+/**
+ * Hey look I'm a student!
+ */
+export class Student extends Person {
+
+}
