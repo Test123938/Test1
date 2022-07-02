@@ -22,7 +22,7 @@ jobs:
       branch: ${{ github.ref_name }}
 
   # Builds and adds the documentation files for the api. 
-  Docs:
+  Document:
     needs: Compile
     uses: ./.github/workflows/document.yml
     with:
