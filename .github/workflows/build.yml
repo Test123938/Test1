@@ -10,14 +10,9 @@ on:
 jobs:
   # Check to make sure the engine compiles first - mission critical
   Compile:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Branch
-        run: echo ${{ github.ref_name }}
-
-      - uses: ./.github/workflows/compile.yml
-        with:
-          branch: ${{ github.ref_name }}
+    uses: ./.github/workflows/compile.yml
+    with:
+      branch: ${{ github.ref_name }}
 
   # Run Unit Tests - lets check and see if the unit tests pass
   Test:
