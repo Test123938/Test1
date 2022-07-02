@@ -114,7 +114,7 @@
     "readme": "./README.md",
     "theme": "hierarchy",
     "umlClassDiagram": {
-        "type": "simple",
+        "type": "detailed",
         "location": "local",
         "format": "svg",
         "arrowColor": "#ff0000",
