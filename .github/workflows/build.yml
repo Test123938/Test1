@@ -14,6 +14,10 @@ jobs:
     with:
       branch: ${{ github.ref_name }}
 
+    steps:
+      - name: Branche
+        run: echo ${{ github.ref_name }}
+
   # Run Unit Tests - lets check and see if the unit tests pass
   Test:
     needs: Compile
