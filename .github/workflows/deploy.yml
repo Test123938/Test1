@@ -20,7 +20,8 @@ jobs:
   Validate Version:
     runs-on: ubuntu-latest
     steps:
-      - run: |
+        name: Check Semantic Version
+        run: |
           npm install semver
           npx semver ${{ github.event.inputs.version }}
 
