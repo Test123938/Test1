@@ -65,6 +65,7 @@ jobs:
 
       # Tag the commit and push to main branch
       - name: Tag, Commit, Push
+        run: |
           git commit -m "Pushing changes. Testing. Hellow World!"
           git tag ${{ inputs.version }}
           git push
