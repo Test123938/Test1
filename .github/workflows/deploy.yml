@@ -63,8 +63,8 @@ jobs:
       # Configure github username and email
       - name: Config User and Email
         run: |
-          git config user.name ${{ github.event.pusher.name }} 
-          git config user.email ${{ github.event.pusher.email }}
+          git config user.name ${{ github.actor }} 
+          # git config user.email ${{ github.event.pusher.email }}
 
       # Fetch and Merge
       - name: Fetch and Merge
