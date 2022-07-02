@@ -106,12 +106,12 @@
     "name": "Wolfie2D",
     "includeVersion": true,
     "entryPoints": [
-        "./src/Wolfie2D/index.ts"
+        "./src/"
     ],
     "entryPointStrategy": "expand",
     "includes": "./includes",
     "media": "./media",
-    "readme": "./readme.md",
+    "readme": "./README.md",
     "theme": "hierarchy",
     "umlClassDiagram": {
         "type": "simple",
