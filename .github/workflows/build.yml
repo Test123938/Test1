@@ -1,0 +1,69 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Build
+
+on: 
+  workflow_call:
+  push: 
+    branches:
+      - dev-api
+      - main
+
+jobs:
+  # Check to make sure the engine compiles first - mission critical
+  Compile:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v3
+        with:
+          rec: ${{ github.ref_name }}
+      - name: Run Compile Test
+        run: |
+          npm install
+          npm run build
+
+  # Run Unit Tests - lets check and see if the unit tests pass
+  Test:
+    needs: Compile
+    runs-on: ubuntu-latest
+    steps:
+
+    # Check out the development branch for the api
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref_name }}
+
+    # Run npm install and then run units tests
+      - name: Run Unit Tests
+        run: |
+          npm install
+          npm test  
+
+  # Build the documentation for the api. Depends on compilation step.
+  Docs:
+    needs: Compile
+    runs-on: ubuntu-latest
+    steps:
+
+      # Check out the whatever branch we're on
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Build API Docs
+        run: |
+          npm install
+          npm run docs
+
+      # Configure github username and email
+      - name: Config User and Email
+        run: |
+          git config user.name ${{ github.event.pusher.name }} 
+          git config user.email ${{ github.event.pusher.email }}
+
+      # Add, commit, and push the docs to remote development branch
+      - name: Git ACP
+        run: |
+          git add .
+          git commit -m "Adding docs to remote"
+          git push
