@@ -39,26 +39,16 @@ jobs:
     with:
       branch: ${{ inputs.branch }}
 
-  # Builds and adds the documentation files for the api. 
-  Docs:
-    needs: Compile
-    uses: ./.github/workflows/document.yml
-    with:
-      branch: ${{ inputs.branch }}
-      username: ${{ github.actor }}
-      email: dummy
-      message: Building documentation
-
   # Fetch and merge from the development branch
   Pull:
-    needs: [Docs, Test]
+    needs: Test
     runs-on: ubuntu-latest
     steps:
 
       # Get the development branch
       - uses: actions/checkout@v3
         with:
-          ref: ${{ inputs.branch }}
+          ref: ${{ github.ref_name }}
 
       # Configure github username and email
       - name: Config User and Email
@@ -69,7 +59,7 @@ jobs:
       - name: Fetch and Merge
         run: |
           git fetch origin
-          git merge origin/main --allow-unrelated-histories --strategy-option=theirs
+          git merge origin/${{ inputs.branch }} --allow-unrelated-histories --strategy-option=theirs
 
       # Tag the commit and push to main branch
       - name: Tag, Commit, Push
