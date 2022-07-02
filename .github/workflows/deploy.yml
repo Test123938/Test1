@@ -30,7 +30,7 @@ jobs:
     needs: Version
     uses: ./.github/workflows/compile.yml
     with:
-      branch: inputs.branch
+      branch: ${{ inputs.branch }}
 
   # Run Unit Tests - lets check and see if the unit tests pass
   Test:
