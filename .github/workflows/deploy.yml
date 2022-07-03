@@ -58,7 +58,7 @@ jobs:
       # Get the development branch
       - uses: actions/checkout@v3
         with:
-          ref: ${{ inputs.branch }}
+          ref: ${{ github.ref_name }}
 
       # Configure github username and email
       - name: Config User and Email
@@ -69,7 +69,7 @@ jobs:
       - name: Fetch and Merge
         run: |
           git fetch origin
-          git merge origin/main --allow-unrelated-histories --strategy-option=theirs
+          git merge origin/${{ inputs.branch }} --allow-unrelated-histories --strategy-option=theirs
 
       # Push to remote main branch
       - name: Tag and Push Changes
