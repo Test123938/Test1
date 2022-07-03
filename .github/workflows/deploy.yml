@@ -72,6 +72,7 @@ jobs:
           git merge origin/main --allow-unrelated-histories --strategy-option=theirs
 
       # Push to remote main branch
-      - name: Push Changes
+      - name: Tag and Push Changes
         run: |
+          git tag ${{ inputs.version }}
           git push origin ${{ inputs.version }}
