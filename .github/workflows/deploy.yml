@@ -71,9 +71,7 @@ jobs:
           git fetch origin
           git merge origin/main --allow-unrelated-histories --strategy-option=theirs
 
-      # Tag the commit and push to main branch
-      - name: Tag, Commit, Push
+      # Push to remote main branch
+      - name: Push Changes
         run: |
-          # git commit -m "Pushing changes. Testing. Hellow World!"
-          git tag ${{ inputs.version }}
-          git push
+          git push origin ${{ inputs.version }}
